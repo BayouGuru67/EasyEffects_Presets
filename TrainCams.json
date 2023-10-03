@@ -1,0 +1,102 @@
+{
+    "output": {
+        "autogain#0": {
+            "bypass": false,
+            "input-gain": 0.0,
+            "maximum-history": 7,
+            "output-gain": 0.0,
+            "reference": "Geometric Mean (MSI)",
+            "silence-threshold": -60.0,
+            "target": -15.999999999999996
+        },
+        "blocklist": [
+            "redeclipse",
+            "assaultcube",
+            "doomsday",
+            "kshisen",
+            "knetwalk"
+        ],
+        "compressor#0": {
+            "attack": 7.0,
+            "boost-amount": 0.9999999999999999,
+            "boost-threshold": -60.0,
+            "bypass": false,
+            "dry": -64.0,
+            "hpf-frequency": 10.0,
+            "hpf-mode": "off",
+            "input-gain": 0.0,
+            "knee": -6.000000000000011,
+            "lpf-frequency": 20000.0,
+            "lpf-mode": "off",
+            "makeup": 1.4999999999999987,
+            "mode": "Downward",
+            "output-gain": 0.0,
+            "ratio": 2.5000000000000107,
+            "release": 84.0,
+            "release-threshold": -79.99999999999909,
+            "sidechain": {
+                "lookahead": 7.0,
+                "mode": "Uniform",
+                "preamp": 0.0,
+                "reactivity": 4.2,
+                "source": "Middle",
+                "type": "Feed-forward"
+            },
+            "threshold": -12.0,
+            "wet": 0.0
+        },
+        "filter#0": {
+            "balance": 0.0,
+            "bypass": false,
+            "frequency": 135.0,
+            "gain": 0.0,
+            "input-gain": 0.0,
+            "mode": "RLC (BT)",
+            "output-gain": 0.0,
+            "quality": 0.0,
+            "slope": "x1",
+            "type": "High-pass",
+            "width": 4.0
+        },
+        "filter#1": {
+            "balance": 0.0,
+            "bypass": false,
+            "frequency": 2000.0,
+            "gain": 0.0,
+            "input-gain": 0.0,
+            "mode": "RLC (BT)",
+            "output-gain": 0.0,
+            "quality": 0.0,
+            "slope": "x1",
+            "type": "Low-pass",
+            "width": 4.0
+        },
+        "limiter#0": {
+            "alr": true,
+            "alr-attack": 7.0,
+            "alr-knee": -1.499999999999992,
+            "alr-release": 42.0,
+            "attack": 7.0,
+            "bypass": false,
+            "dithering": "24bit",
+            "external-sidechain": false,
+            "gain-boost": false,
+            "input-gain": 1.0,
+            "lookahead": 7.999999999999979,
+            "mode": "Herm Wide",
+            "output-gain": 0.0,
+            "oversampling": "Full x8(3L)",
+            "release": 17.999999999999687,
+            "sidechain-preamp": 0.0,
+            "stereo-link": 25.0,
+            "threshold": -0.09999999999999924
+        },
+        "plugins_order": [
+            "filter#0",
+            "filter#1",
+            "autogain#0",
+            "compressor#0",
+            "limiter#0"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "output": {
+        "blocklist": [
+            "assaultcube",
+            "doomsday",
+            "kshisen",
+            "redeclipse",
+            "knetwalk"
+        ],
+        "maximizer#0": {
+            "bypass": false,
+            "ceiling": 0.0,
+            "input-gain": 0.0,
+            "output-gain": 0.0,
+            "release": 42.0,
+            "threshold": -5.999999999999994
+        },
+        "plugins_order": [
+            "maximizer#0"
+        ]
+    }
+}

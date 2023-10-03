@@ -1,0 +1,135 @@
+{
+    "output": {
+        "bass_enhancer#0": {
+            "amount": -1.942890293094024e-16,
+            "blend": 0.0,
+            "bypass": false,
+            "floor": 20.0,
+            "floor-active": false,
+            "harmonics": 9.999999999999996,
+            "input-gain": 0.0,
+            "output-gain": 0.0,
+            "scope": 110.0
+        },
+        "blocklist": [
+            "redeclipse",
+            "doomsday",
+            "assaultcube",
+            "kshisen",
+            "Shisen-Sho"
+        ],
+        "compressor#0": {
+            "attack": 7.0,
+            "boost-amount": 1.0,
+            "boost-threshold": -60.0,
+            "bypass": false,
+            "dry": -67.0,
+            "hpf-frequency": 10.0,
+            "hpf-mode": "off",
+            "input-gain": 2.0,
+            "knee": -4.2,
+            "lpf-frequency": 20000.0,
+            "lpf-mode": "off",
+            "makeup": 1.0,
+            "mode": "Downward",
+            "output-gain": 1.0,
+            "ratio": 3.5,
+            "release": 67.0,
+            "release-threshold": -67.0,
+            "sidechain": {
+                "lookahead": 7.0,
+                "mode": "Uniform",
+                "preamp": 0.0,
+                "reactivity": 4.199999809265137,
+                "source": "Middle",
+                "type": "Feed-forward"
+            },
+            "threshold": -12.0,
+            "wet": 0.0
+        },
+        "crystalizer#0": {
+            "band0": {
+                "bypass": false,
+                "intensity": 0.0,
+                "mute": false
+            },
+            "band1": {
+                "bypass": false,
+                "intensity": 0.0,
+                "mute": false
+            },
+            "band10": {
+                "bypass": false,
+                "intensity": -9.0,
+                "mute": false
+            },
+            "band11": {
+                "bypass": false,
+                "intensity": -9.0,
+                "mute": false
+            },
+            "band12": {
+                "bypass": false,
+                "intensity": -9.0,
+                "mute": false
+            },
+            "band2": {
+                "bypass": false,
+                "intensity": 0.0,
+                "mute": false
+            },
+            "band3": {
+                "bypass": false,
+                "intensity": 0.0,
+                "mute": false
+            },
+            "band4": {
+                "bypass": false,
+                "intensity": 0.0,
+                "mute": false
+            },
+            "band5": {
+                "bypass": false,
+                "intensity": -3.0,
+                "mute": false
+            },
+            "band6": {
+                "bypass": false,
+                "intensity": -3.0,
+                "mute": false
+            },
+            "band7": {
+                "bypass": false,
+                "intensity": -6.0,
+                "mute": false
+            },
+            "band8": {
+                "bypass": false,
+                "intensity": -6.0,
+                "mute": false
+            },
+            "band9": {
+                "bypass": false,
+                "intensity": -9.0,
+                "mute": false
+            },
+            "bypass": false,
+            "input-gain": -1.5,
+            "output-gain": -1.5
+        },
+        "maximizer#0": {
+            "bypass": false,
+            "ceiling": 0.0,
+            "input-gain": 1.0,
+            "output-gain": 0.0,
+            "release": 21.0,
+            "threshold": -7.0
+        },
+        "plugins_order": [
+            "compressor#0",
+            "crystalizer#0",
+            "bass_enhancer#0",
+            "maximizer#0"
+        ]
+    }
+}

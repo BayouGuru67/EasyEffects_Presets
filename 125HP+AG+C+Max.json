@@ -1,0 +1,76 @@
+{
+    "output": {
+        "autogain#0": {
+            "bypass": false,
+            "input-gain": 1.0,
+            "maximum-history": 7,
+            "output-gain": 0.0,
+            "reference": "Geometric Mean (SI)",
+            "silence-threshold": -67.0,
+            "target": -15.0
+        },
+        "blocklist": [
+            "assaultcube",
+            "doomsday",
+            "kshisen",
+            "redeclipse",
+            "knetwalk"
+        ],
+        "compressor#0": {
+            "attack": 7.0,
+            "boost-amount": 0.9999999999999999,
+            "boost-threshold": -60.0,
+            "bypass": false,
+            "dry": -67.0,
+            "hpf-frequency": 10.0,
+            "hpf-mode": "off",
+            "input-gain": 1.0,
+            "knee": -6.0,
+            "lpf-frequency": 20000.0,
+            "lpf-mode": "off",
+            "makeup": -3.0,
+            "mode": "Downward",
+            "output-gain": 1.0,
+            "ratio": 3.5,
+            "release": 67.0,
+            "release-threshold": -66.99999999999983,
+            "sidechain": {
+                "lookahead": 7.0,
+                "mode": "Uniform",
+                "preamp": 0.0,
+                "reactivity": 4.2,
+                "source": "Middle",
+                "type": "Feed-forward"
+            },
+            "threshold": -12.0,
+            "wet": 0.0
+        },
+        "filter#0": {
+            "balance": 0.0,
+            "bypass": false,
+            "frequency": 88.0,
+            "gain": 0.0,
+            "input-gain": 0.0,
+            "mode": "RLC (BT)",
+            "output-gain": 0.0,
+            "quality": 7.0,
+            "slope": "x8",
+            "type": "High-pass",
+            "width": 6.953334808349609
+        },
+        "maximizer#0": {
+            "bypass": false,
+            "ceiling": 0.0,
+            "input-gain": 1.0,
+            "output-gain": 0.0,
+            "release": 42.0,
+            "threshold": -7.0
+        },
+        "plugins_order": [
+            "filter#0",
+            "autogain#0",
+            "compressor#0",
+            "maximizer#0"
+        ]
+    }
+}

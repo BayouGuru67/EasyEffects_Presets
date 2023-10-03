@@ -1,0 +1,105 @@
+{
+    "output": {
+        "bass_enhancer#0": {
+            "amount": -1.942890293094024e-16,
+            "blend": 0.0,
+            "bypass": false,
+            "floor": 20.0,
+            "floor-active": true,
+            "harmonics": 9.0,
+            "input-gain": 0.0,
+            "output-gain": -3.0,
+            "scope": 120.0
+        },
+        "blocklist": [
+            "redeclipse",
+            "assaultcube",
+            "doomsday",
+            "kshisen",
+            "knetwalk"
+        ],
+        "crystalizer#0": {
+            "band0": {
+                "bypass": false,
+                "intensity": 0.0,
+                "mute": false
+            },
+            "band1": {
+                "bypass": false,
+                "intensity": 0.0,
+                "mute": false
+            },
+            "band10": {
+                "bypass": false,
+                "intensity": -9.0,
+                "mute": false
+            },
+            "band11": {
+                "bypass": false,
+                "intensity": -9.0,
+                "mute": false
+            },
+            "band12": {
+                "bypass": false,
+                "intensity": -9.0,
+                "mute": false
+            },
+            "band2": {
+                "bypass": false,
+                "intensity": 0.0,
+                "mute": false
+            },
+            "band3": {
+                "bypass": false,
+                "intensity": 0.0,
+                "mute": false
+            },
+            "band4": {
+                "bypass": false,
+                "intensity": 0.0,
+                "mute": false
+            },
+            "band5": {
+                "bypass": false,
+                "intensity": 0.0,
+                "mute": false
+            },
+            "band6": {
+                "bypass": false,
+                "intensity": 0.0,
+                "mute": false
+            },
+            "band7": {
+                "bypass": false,
+                "intensity": -3.0,
+                "mute": false
+            },
+            "band8": {
+                "bypass": false,
+                "intensity": -6.0,
+                "mute": false
+            },
+            "band9": {
+                "bypass": false,
+                "intensity": -9.0,
+                "mute": false
+            },
+            "bypass": false,
+            "input-gain": 0.0,
+            "output-gain": 0.0
+        },
+        "maximizer#0": {
+            "bypass": false,
+            "ceiling": -2.7755575615628914e-17,
+            "input-gain": 0.0,
+            "output-gain": 0.0,
+            "release": 14.0,
+            "threshold": -5.999999999999994
+        },
+        "plugins_order": [
+            "bass_enhancer#0",
+            "crystalizer#0",
+            "maximizer#0"
+        ]
+    }
+}
