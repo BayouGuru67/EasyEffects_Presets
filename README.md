@@ -77,10 +77,15 @@ and noise was drowning out the voices, so this was designed to help with that.
 
 # Installation
 
-You should be able to Download and save these presets to  "/.var/app/com.github.wwmm.easyeffects/config/easyeffects/output" on your 
+The easiest way to install these presets is to download them to your preferred
+download directory, then use EasyEffects' "Import Preset" function to import them.
+
+Alternatively....
+
+You could Download and save these presets to  "/.var/app/com.github.wwmm.easyeffects/config/easyeffects/output" on your 
 system (if using the EasyEffects Flatpack). 
 
-If you are using a non-flatpack version of EasyEffects, the presets are probably
+If you are using a non-flatpack version of EasyEffects on Linux, presets are likely
 stored in "~/.config/easyeffects/output".  
 
 Once you have copied the new presets to the appropriate directory, close and restart
